@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import SerenExpressLogos from "../components/SerenExpressLogos";
 
 export default function Page() {
   const [openDropdown, setOpenDropdown] = useState(null);
@@ -114,6 +115,10 @@ export default function Page() {
           all under one roof.
         </motion.p>
       </motion.section>
+
+      <motion.div>
+        <SerenExpressLogos />
+      </motion.div>
 
       {/* Why We Exist */}
       <motion.section
