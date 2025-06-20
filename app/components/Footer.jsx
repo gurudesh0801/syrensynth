@@ -105,7 +105,7 @@ export default function Footer() {
             CITY, MAHARASHTRA, PIN: 411045
           </p>
           <a href="mailto:abc@gmail.com" className="block hover:underline">
-            Gmail: assist@serensynthlabs.com
+            Email us: assist@serensynthlabs.com
           </a>
           <a href="tel:0000000000" className="block hover:underline">
             Mob No: +91 8062179313
@@ -114,7 +114,8 @@ export default function Footer() {
       </div>
 
       <div className="text-center text-sm text-white pt-6">
-        Copyrights Serensynth Labs Private Limited © All Rights Reserved 2025
+        © {new Date().getFullYear()} Serensynth Labs Pvt Ltd. All Rights
+        reserved.
       </div>
     </footer>
   );

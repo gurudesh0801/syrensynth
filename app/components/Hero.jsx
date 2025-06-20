@@ -27,17 +27,16 @@ export default function Hero() {
         backgroundPosition: "center",
       }}
     >
-      {/* Max-width container */}
-      <div className="relative z-10 flex flex-col justify-center h-full px-6 lg:px-8 text-white max-w-7xl pt-20 mx-auto">
+      {/* Centered Content */}
+      <div className="relative z-10 flex flex-col items-center justify-center h-full px-6 lg:px-8 text-white max-w-7xl mx-auto text-center">
         <motion.h1
-          className="text-4xl md:text-[3.4rem] font-bold leading-tight"
+          className="text-4xl md:text-[3rem] font-bold leading-tight"
           style={{ fontFamily: "Poppins, sans-serif" }}
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          Empowering SEM, & D2C Brands <br />
-          With scalable E-Commerce & <br />
+          Empowering SEM, & D2C Brands With scalable <br /> E-Commerce &
           Marketing Solution
         </motion.h1>
         <motion.p
