@@ -14,19 +14,18 @@
   font-family: "Montserrat Alternates", sans-serif !important;
 }
 
-@keyframes gradient-move {
-  0% {
-    background-position: 0% 50%;
+@keyframes softPulse {
+  0%,
+  100% {
+    opacity: 0.85;
+    transform: scale(1);
   }
   50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
+    opacity: 1;
+    transform: scale(1.01);
   }
 }
 
-.animate-gradient-move {
-  background-size: 200% 200%;
-  animation: gradient-move 15s ease infinite;
+.animate-softPulse {
+  animation: softPulse 10s ease-in-out infinite;
 }

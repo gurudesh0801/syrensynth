@@ -64,33 +64,30 @@ export default function LaunchpadSection() {
             can focus on what you do best: inspiring and connecting with your
             community.
           </p>
-          <p className="font-bold">What We Handle, So You Don't Have To:</p>
-          <p>
-            -Product Sourcing & Innovation: Identifying trending products or
-            developing unique offerings that align with your brand vision.
-          </p>
-          <p>
-            -End-to-End Supply Chain: From manufacturing to warehousing and
-            fulfillment, we manage it all.
-          </p>
-          <p>
-            -Strategic Marketing & Ads: Crafting compelling campaigns to reach
-            new audiences and drive sales.
-          </p>
-          <p>
-            -Sales & E-commerce Management: Optimizing your online store and
-            sales funnels for maximum conversions.
-          </p>
-          <p>
-            -Customer Support: Providing seamless and professional support to
-            your customers.
-          </p>
-          <p>
-            -Compliance & Legal: Ensuring all aspects of your brand operate
-            smoothly and legally. Your Influence. Our Expertise.
-            One Powerful Brand.
-          </p>
 
+          {/* List in Card Style */}
+          <div className="space-y-6">
+            <p className="font-bold">What We Handle, So You Don't Have To:</p>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {[
+                "Product Sourcing & Innovation: Identifying trending products or developing unique offerings that align with your brand vision.",
+                "End-to-End Supply Chain: From manufacturing to warehousing and fulfillment, we manage it all.",
+                "Strategic Marketing & Ads: Crafting compelling campaigns to reach new audiences and drive sales.",
+                "Sales & E-commerce Management: Optimizing your online store and sales funnels for maximum conversions.",
+                "Customer Support: Providing seamless and professional support to your customers.",
+                "Compliance & Legal: Ensuring all aspects of your brand operate smoothly and legally. Your Influence. Our Expertise. One Powerful Brand.",
+              ].map((item, i) => (
+                <div
+                  key={i}
+                  className="bg-white/10 border border-white/30 rounded-lg p-4 backdrop-blur-sm shadow-md text-white text-sm sm:text-base"
+                >
+                  {item}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* CTA Button */}
           <div className="text-center pt-4">
             <a
               href="https://forms.gle/aWX6GWNAxQL4PutC7"
