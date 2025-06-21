@@ -13,7 +13,6 @@ const logos = [
   "/image/Ecom-Express.png",
   "/image/EKART.png",
   "/image/GATI.png",
-  "/image/Indigo_Air.png",
   "/image/SAFE-EXPRESS.png",
   "/image/SEREN.png",
   "/image/Spice-Jet.png",

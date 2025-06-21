@@ -88,7 +88,7 @@ export default function Page() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className="bg-gradient-to-b from-[#0C1B3A] to-[#1C2C4A] text-white text-center px-4 py-16 pt-36 md:py-24"
+        className="bg-gradient-to-b from-[#0C1B3A] to-[#1C2C4A] text-white text-center px-4 py-16 pt-36 md:py-40"
       >
         <motion.h1
           initial={{ y: -20, opacity: 0 }}

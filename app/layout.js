@@ -17,6 +17,11 @@ export const metadata = {
   title: "SerenSynth",
   description:
     "serenSynth is a leading e-commerce and marketing solutions provider, specializing in SEM and D2C brands. We empower businesses with scalable solutions for growth.",
+  icons: {
+    icon: "/image/Logo.png",
+    shortcut: "/image/Logo.png",
+    apple: "/image/Logo.png",
+  },
 };
 
 export default function RootLayout({ children }) {

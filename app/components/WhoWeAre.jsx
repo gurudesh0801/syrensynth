@@ -6,7 +6,7 @@ export default function WhoWeAre() {
   return (
     <div className="text-[#0C1B3A]">
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-[#0C1B3A] to-[#1C2C4A] text-white text-center px-4 sm:px-6 py-34 sm:py-34">
+      <section className="bg-gradient-to-b from-[#0C1B3A] to-[#1C2C4A] text-white text-center px-4 sm:px-6 py-20 pt-34 sm:py-34">
         <h1 className="text-2xl sm:text-4xl md:text-5xl font-semibold mb-4 sm:mb-6">
           Architects of Tomorrow's Brands
         </h1>
