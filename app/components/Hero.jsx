@@ -2,24 +2,11 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Hero() {
-  const logos = [
-    "/image/razorpay.png",
-    "/image/Google-Ads.png",
-    "/image/India-Mart.png",
-    "/image/Meta.png",
-    "/image/Microsoft.png",
-    "/image/Shopify.png",
-    "/image/Wix.png",
-    "/image/ZOHO.png",
-    "/image/Amazon-Ads.png",
-  ];
-
   return (
     <div
-      className="relative h-screen w-full"
+      className="relative w-full flex items-center justify-center py-20 pt-40 sm:py-24 lg:py-32 lg:py-40 px-6"
       style={{
         backgroundImage:
           "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/image/bg-img.jpg')",
@@ -28,37 +15,38 @@ export default function Hero() {
       }}
     >
       {/* Centered Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center h-full px-6 lg:px-8 text-white max-w-7xl mx-auto text-center">
+      <div className="relative z-10 max-w-5xl mx-auto text-center text-white space-y-6">
         <motion.h1
-          className="text-4xl md:text-[3rem] font-bold leading-tight"
+          className="text-3xl sm:text-4xl md:text-[2.75rem] font-bold leading-tight"
           style={{ fontFamily: "Poppins, sans-serif" }}
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          Empowering SEM, & D2C Brands With scalable <br /> E-Commerce &
-          Marketing Solution
+          Empowering SME & D2C Brands with Scalable <br />
+          E-Commerce & Marketing Solutions
         </motion.h1>
+
         <motion.p
-          className="mt-6 text-xl max-w-2xl"
+          className="text-lg sm:text-xl max-w-3xl mx-auto"
           style={{ fontFamily: "Poppins, sans-serif" }}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 1 }}
         >
-          From logistics to digital growth we manage everything you need to
+          From logistics to digital growth, we manage everything you need to
           scale your business. Discover how our integrated approach and proven
-          strategies can unlock your brand's full potential.
+          strategies can unlock your brand’s full potential.
         </motion.p>
+
         <Link href="/seren-media" passHref>
           <motion.a
-            className="mt-8 inline-block bg-[#D6B68E] hover:bg-[#D6B68f] text-black font-semibold py-2 px-6 rounded-lg shadow-lg flex items-center gap-2"
+            className="inline-block mt-4 sm:mt-6 bg-[#D6B68E] hover:bg-[#dcbf9c] text-black font-semibold py-2 px-6 rounded-lg shadow-lg flex items-center gap-2 text-sm sm:text-base"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1, duration: 0.8 }}
           >
-            Explore Our Solution
-            <span className="text-xl">→</span>
+            Explore Our Solution <span className="text-lg">→</span>
           </motion.a>
         </Link>
       </div>

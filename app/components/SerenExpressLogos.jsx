@@ -22,7 +22,7 @@ const logos = [
 
 export default function SerenExpressLogos() {
   return (
-    <div className="mt-14 mb-20">
+    <div className="mt-10 mb-3">
       <motion.h2
         className="text-3xl md:text-4xl font-semibold text-center text-[#0C1B3A] mb-12"
         initial={{ opacity: 0, y: 30 }}

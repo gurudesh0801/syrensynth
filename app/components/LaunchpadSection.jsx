@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 
 export default function LaunchpadSection() {
   return (
-    <section className="py-16 px-4 md:px-12 bg-white">
+    <section className="py-10 px-4 sm:px-6 md:px-12 bg-white">
       {/* Section Heading */}
       <motion.h2
-        className="text-2xl sm:text-3xl md:text-4xl font-semibold text-center text-[#0C1B3A] mb-6"
+        className="text-xl sm:text-3xl md:text-4xl font-semibold text-center text-[#0C1B3A] mb-8"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
@@ -19,13 +19,13 @@ export default function LaunchpadSection() {
 
       {/* Gradient Box */}
       <motion.div
-        className="relative max-w-6xl mx-auto rounded-2xl p-6 sm:p-40 flex items-center justify-center text-center overflow-hidden shadow-xl"
+        className="relative max-w-6xl mx-auto rounded-2xl p-5 sm:p-10 md:p-16 flex flex-col items-center justify-center text-center overflow-hidden shadow-xl"
         initial={{ opacity: 0, scale: 0.95 }}
         whileInView={{ opacity: 1, scale: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.7 }}
       >
-        {/* Animated Background Layer */}
+        {/* Background Gradient */}
         <div
           className="absolute inset-0 z-0 rounded-2xl animate-softPulse"
           style={{
@@ -38,17 +38,17 @@ export default function LaunchpadSection() {
 
         {/* Foreground Content */}
         <div
-          className="relative z-10 text-white text-left text-xl sm:text-xl md:text-xl font-normal space-y-6"
+          className="relative z-10 text-white text-left text-sm sm:text-base space-y-5"
           style={{ textShadow: "0 1px 3px rgba(0, 0, 0, 0.4)" }}
         >
           <motion.h2
-            className="text-2xl sm:text-4xl md:text-4xl font-semibold text-center text-white mb-6"
+            className="text-xl sm:text-3xl md:text-4xl font-semibold text-center text-white mb-4"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            Co-Create Your Brand. Amplify Your Impact
+            Co-Create Your Brand. Amplify Your Impact
           </motion.h2>
 
           <p>
@@ -65,10 +65,10 @@ export default function LaunchpadSection() {
             community.
           </p>
 
-          {/* List in Card Style */}
-          <div className="space-y-6">
+          {/* List Section */}
+          <div className="space-y-4">
             <p className="font-bold">What We Handle, So You Don't Have To:</p>
-            <div className="grid sm:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
               {[
                 "Product Sourcing & Innovation: Identifying trending products or developing unique offerings that align with your brand vision.",
                 "End-to-End Supply Chain: From manufacturing to warehousing and fulfillment, we manage it all.",
@@ -79,7 +79,7 @@ export default function LaunchpadSection() {
               ].map((item, i) => (
                 <div
                   key={i}
-                  className="bg-white/10 border border-white/30 rounded-lg p-4 backdrop-blur-sm shadow-md text-white text-sm sm:text-base"
+                  className="bg-white/10 border border-white/30 rounded-lg p-3 sm:p-4 backdrop-blur-sm shadow text-white text-xs sm:text-sm"
                 >
                   {item}
                 </div>
@@ -94,7 +94,7 @@ export default function LaunchpadSection() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="bg-white text-black px-6 py-2 rounded-lg border border-[#e5c28c] hover:shadow-lg transition font-medium text-sm sm:text-base">
+              <button className="bg-white text-black px-5 py-2 rounded-lg border border-[#e5c28c] hover:shadow-lg transition font-medium text-xs sm:text-base">
                 Join Waitlist
               </button>
             </a>

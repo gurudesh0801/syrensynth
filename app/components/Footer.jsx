@@ -25,6 +25,13 @@ export default function Footer() {
               className="w-32 h-auto cursor-pointer"
             />
           </Link>
+          <Image
+            src="/image/DPIIT.jpg"
+            alt="DPIIT Logo"
+            width={128}
+            height={48}
+            className="w-32 h-auto cursor-pointer"
+          />
           <div>
             <p className="mb-2">Follow us on</p>
             <div className="flex gap-4 text-lg">

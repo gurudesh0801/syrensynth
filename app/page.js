@@ -13,8 +13,8 @@ export default function Home() {
       <EcosystemSlider />
       <CallToActionCards />
       <SectorsWeServe />
-      <LaunchpadSection />
       <TransformationStats />
+      <LaunchpadSection />
     </>
   );
 }

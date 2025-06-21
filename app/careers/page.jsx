@@ -33,191 +33,107 @@ const jobs = [
     },
   },
   {
-    title: "Digital Marketing Specialist",
+    title: "Tele Sales Executive",
     tags: ["Remote", "Full-time"],
-    desc: "Develop and implement digital marketing strategies to enhance our online presence and drive customer engagement.",
+    desc: "Your job is to connect, convince, and convert leads over calls. Be the first voice of our company for inbound & outbound calls.",
     details: {
       location: "Remote (India)",
-      experience: "2+ years",
+      experience: "1+ years",
       responsibilities: [
-        "Manage SEO/SEM, marketing database, email, and social media campaigns",
-        "Design and oversee digital ad campaigns",
-        "Measure and report performance of all digital marketing campaigns",
-        "Identify trends and optimize spend based on insights",
+        "Handle inbound and outbound sales calls",
+        "Understand customer needs and recommend solutions",
+        "Achieve sales targets and KPIs",
+        "Maintain accurate records of customer interactions",
       ],
       requirements: [
-        "Proven experience in digital marketing",
-        "Experience with Google Ads, Facebook Ads, and analytics tools",
-        "Creative with excellent analytical abilities",
-        "Up-to-date with latest digital marketing trends",
+        "Excellent communication and interpersonal skills",
+        "Proven experience in tele-sales or tele-marketing",
+        "Ability to handle rejection and stay motivated",
+        "Basic computer knowledge and CRM experience",
       ],
     },
   },
   {
-    title: "Frontend Developer (React)",
-    tags: ["Remote", "Full-time"],
-    desc: "Build responsive and interactive user interfaces for our web applications using modern React.js.",
-    details: {
-      location: "Bangalore, India",
-      experience: "2+ years",
-      responsibilities: [
-        "Develop new user-facing features using React.js",
-        "Build reusable components and front-end libraries",
-        "Optimize components for maximum performance",
-        "Collaborate with UI/UX designers and backend developers",
-      ],
-      requirements: [
-        "Strong proficiency in JavaScript, including DOM manipulation",
-        "Thorough understanding of React.js and its core principles",
-        "Experience with popular React workflows (Redux, Context API)",
-        "Familiarity with modern front-end build pipelines and tools",
-      ],
-    },
-  },
-  {
-    title: "Content Strategist",
+    title: "Graphic Designer",
     tags: ["Hybrid", "Full-time"],
-    desc: "Develop content strategies that align with our brand voice and drive engagement across all digital platforms.",
+    desc: "We need a designer who brings ideas to life — from digital ads to brand identity and packaging.",
     details: {
       location: "Delhi, India",
-      experience: "3+ years",
+      experience: "2+ years",
       responsibilities: [
-        "Create and implement content strategies to meet business objectives",
-        "Oversee content production and distribution",
-        "Analyze content performance and optimize accordingly",
-        "Manage content calendar and ensure brand consistency",
+        "Create visual content for digital and print media",
+        "Develop brand identity systems and guidelines",
+        "Design marketing materials and social media graphics",
+        "Collaborate with marketing team on creative projects",
       ],
       requirements: [
-        "Proven content strategy or editorial experience",
-        "Excellent writing and editing skills",
-        "Understanding of SEO and web traffic metrics",
-        "Ability to interpret customer needs",
+        "Proficiency in Adobe Creative Suite (Photoshop, Illustrator)",
+        "Strong portfolio showcasing design skills",
+        "Understanding of typography, color theory",
+        "Ability to work on multiple projects simultaneously",
       ],
     },
   },
   {
-    title: "Data Analyst",
+    title: "Video Editor",
     tags: ["Remote", "Full-time"],
-    desc: "Transform complex data into actionable insights that drive business decisions and strategies.",
+    desc: "Create high-impact videos — from short reels and brand films to explainer videos. If you know how to keep attention and drive action, we want you.",
     details: {
       location: "Remote (India)",
       experience: "2+ years",
       responsibilities: [
-        "Interpret data and analyze results using statistical techniques",
-        "Develop and implement databases and data collection systems",
-        "Identify trends and patterns in complex data sets",
-        "Create visualizations to communicate findings",
+        "Edit raw footage into polished finished products",
+        "Create motion graphics and animations",
+        "Optimize videos for different platforms",
+        "Manage and organize video assets",
       ],
       requirements: [
-        "Strong knowledge of SQL and Excel",
-        "Experience with data visualization tools (Tableau, Power BI)",
-        "Strong analytical skills with attention to detail",
-        "Knowledge of statistics and experience using statistical packages",
+        "Proficiency in Premiere Pro, After Effects",
+        "Understanding of video formats and codecs",
+        "Creative storytelling skills",
+        "Ability to work under tight deadlines",
       ],
     },
   },
   {
-    title: "HR Business Partner",
-    tags: ["On-site", "Full-time"],
-    desc: "Align HR initiatives with business objectives and provide strategic HR guidance to leadership.",
-    details: {
-      location: "Hyderabad, India",
-      experience: "5+ years",
-      responsibilities: [
-        "Consult with leadership on HR policies and processes",
-        "Manage talent acquisition and onboarding processes",
-        "Address employee relations issues and resolve conflicts",
-        "Develop and implement HR strategies and initiatives",
-      ],
-      requirements: [
-        "Proven experience as HR business partner",
-        "Excellent knowledge of HR functions and best practices",
-        "Understanding of labor laws and disciplinary procedures",
-        "Outstanding communication and interpersonal skills",
-      ],
-    },
-  },
-  {
-    title: "UX/UI Designer",
-    tags: ["Hybrid", "Full-time"],
-    desc: "Create amazing user experiences and beautiful interfaces for our digital products.",
-    details: {
-      location: "Pune, India",
-      experience: "3+ years",
-      responsibilities: [
-        "Gather and evaluate user requirements in collaboration with product managers",
-        "Illustrate design ideas using storyboards, process flows and sitemaps",
-        "Design graphic user interface elements like menus and tabs",
-        "Create original graphic designs and prototypes",
-      ],
-      requirements: [
-        "Proven UI/UX design experience with portfolio",
-        "Proficiency in Figma, Adobe XD or similar",
-        "Knowledge of HTML/CSS; JavaScript is a plus",
-        "Team spirit with strong communication skills",
-      ],
-    },
-  },
-  {
-    title: "DevOps Engineer",
+    title: "Meta Ads Executive",
     tags: ["Remote", "Full-time"],
-    desc: "Implement and maintain CI/CD pipelines and cloud infrastructure to support our development teams.",
+    desc: "We're seeking a creative & data-driven Meta Ads Executive to drive paid growth across Facebook & Instagram.",
     details: {
       location: "Remote (India)",
-      experience: "3+ years",
+      experience: "1+ years",
       responsibilities: [
-        "Implement CI/CD pipelines using Jenkins/GitHub Actions",
-        "Manage AWS/GCP cloud infrastructure",
-        "Automate deployment and scaling processes",
-        "Monitor system performance and troubleshoot issues",
+        "Plan and execute Meta ad campaigns",
+        "Monitor and optimize campaign performance",
+        "Create and test ad creatives and copy",
+        "Analyze data and provide actionable insights",
       ],
       requirements: [
-        "Experience with Docker, Kubernetes and Terraform",
-        "Knowledge of scripting languages (Bash, Python)",
-        "Experience with monitoring tools like Prometheus",
-        "Understanding of networking and security best practices",
+        "Experience running Facebook/Instagram ads",
+        "Understanding of Meta Ads Manager",
+        "Analytical mindset with attention to detail",
+        "Creative thinking for ad concepts",
       ],
     },
   },
   {
-    title: "Customer Success Manager",
+    title: "PPC Advertiser",
     tags: ["Remote", "Full-time"],
-    desc: "Build strong relationships with customers to ensure their success and satisfaction with our products.",
+    desc: "You'll run performance-driven ad campaigns across platforms — especially Google and Meta. Ideal for someone who understands CPL, ROAS, and funnel optimization deeply.",
     details: {
       location: "Remote (India)",
       experience: "2+ years",
       responsibilities: [
-        "Serve as primary point of contact for customer accounts",
-        "Develop trusted advisor relationships with key accounts",
-        "Ensure timely and successful delivery of solutions",
-        "Forecast and track key account metrics",
+        "Manage PPC campaigns across multiple platforms",
+        "Conduct keyword research and audience targeting",
+        "Optimize campaigns for maximum ROI",
+        "Prepare and present performance reports",
       ],
       requirements: [
-        "Proven account management or customer success experience",
-        "Ability to communicate and influence at all levels",
-        "Strong problem-solving and negotiation skills",
-        "Ability to manage multiple projects at a time",
-      ],
-    },
-  },
-  {
-    title: "Product Manager",
-    tags: ["Hybrid", "Full-time"],
-    desc: "Lead the development and execution of product strategies from conception to launch.",
-    details: {
-      location: "Bangalore, India",
-      experience: "4+ years",
-      responsibilities: [
-        "Define product vision, strategy and roadmap",
-        "Gather and prioritize product requirements",
-        "Work closely with engineering, design and marketing teams",
-        "Analyze market trends and competitive landscape",
-      ],
-      requirements: [
-        "Proven work experience in product management",
-        "Strong problem-solving skills and willingness to roll up sleeves",
-        "Excellent written and verbal communication skills",
-        "Technical background with understanding of software development",
+        "Experience with Google Ads and Meta Ads",
+        "Understanding of conversion tracking",
+        "Data analysis and reporting skills",
+        "Up-to-date with PPC trends and best practices",
       ],
     },
   },
@@ -230,23 +146,23 @@ export default function CareersPage() {
   const openJobModal = (job) => {
     setSelectedJob(job);
     setIsModalOpen(true);
-    document.body.style.overflow = "hidden"; // Prevent scrolling when modal is open
+    document.body.style.overflow = "hidden";
   };
 
   const closeJobModal = () => {
     setIsModalOpen(false);
-    document.body.style.overflow = "auto"; // Re-enable scrolling
+    document.body.style.overflow = "auto";
   };
 
   return (
     <div className="bg-white text-[#0C1B3A]">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-b from-[#0C1B3A] to-[#19294F] text-white py-40 text-center px-4">
+      {/* Hero Section - Mobile Optimized */}
+      <section className="bg-gradient-to-b from-[#0C1B3A] to-[#19294F] text-white py-20 pt-30 md:py-40 text-center px-4">
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-4xl font-bold mb-4"
+          className="text-3xl md:text-4xl font-bold mb-4"
         >
           Work With US
         </motion.h1>
@@ -254,80 +170,84 @@ export default function CareersPage() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.5 }}
-          className="max-w-3xl mx-auto text-base leading-relaxed"
+          className="max-w-3xl mx-auto text-sm md:text-base leading-relaxed"
         >
           We offer comprehensive solutions in business acceleration, technology
-          enablement, eCommerce, logistics, and career advancement. Whether
-          you're an entrepreneur, professional, or startup, we have the
-          expertise to drive your success.
+          enablement, eCommerce, logistics, and career advancement.
         </motion.p>
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="mt-8 bg-white text-[#0C1B3A] font-semibold py-2 px-6 rounded"
+          className="mt-6 md:mt-8 bg-white text-[#0C1B3A] font-semibold py-2 px-6 rounded text-sm md:text-base"
         >
           Apply Here
         </motion.button>
       </section>
 
-      {/* Consultant Invitation */}
-      <section className="py-16 px-4 max-w-5xl mx-auto">
-        <h2 className="text-center text-2xl font-semibold text-[#0C1B3A] mb-8">
+      {/* Consultant Invitation - Mobile Optimized */}
+      <section className="py-10 md:py-16 px-4 max-w-5xl mx-auto">
+        <h2 className="text-center text-xl md:text-2xl font-semibold text-[#0C1B3A] mb-6 md:mb-8">
           Join us as a Consultant
         </h2>
-        <div className="flex justify-end mb-6">
-          <button className="border border-[#0C1B3A] text-[#0C1B3A] rounded-full px-4 py-1 text-sm font-medium">
+        <div className="flex justify-end mb-4 md:mb-6">
+          <button className="border border-[#0C1B3A] text-[#0C1B3A] rounded-full px-3 py-1 text-xs md:text-sm font-medium">
             Open positions ↓
           </button>
         </div>
 
-        {/* Job Cards */}
-        {jobs.map((job, index) => (
-          <motion.div
-            key={job.title}
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: index * 0.1, duration: 0.4 }}
-            viewport={{ once: true }}
-            className="mb-10 p-6 rounded-lg border border-gray-200 hover:shadow-md transition-shadow"
-          >
-            <h3 className="font-semibold text-lg">{job.title}</h3>
-            <div className="flex gap-2 mt-2 mb-4">
-              {job.tags.map((tag) => (
-                <span
-                  key={tag}
-                  className="border border-gray-400 rounded-full px-2 py-1 text-xs"
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
-            <p className="text-sm text-gray-700 mb-2">{job.desc}</p>
-            <button
-              onClick={() => openJobModal(job)}
-              className="w-full flex justify-end items-center text-sm text-[#0C1B3A] font-medium hover:underline group"
+        {/* Job Cards - Mobile Optimized */}
+        <div className="space-y-4 md:space-y-6">
+          {jobs.map((job, index) => (
+            <motion.div
+              key={job.title}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: index * 0.1, duration: 0.4 }}
+              viewport={{ once: true }}
+              className="mb-4 md:mb-6 p-4 md:p-6 rounded-lg border border-gray-200 hover:shadow-md transition-shadow"
             >
-              See positions
-              <motion.span
-                animate={{ x: [0, 5, 0] }}
-                transition={{ repeat: Infinity, duration: 1.5 }}
-                className="ml-2 text-xs"
+              <h3 className="font-semibold text-base md:text-lg">
+                {job.title}
+              </h3>
+              <div className="flex gap-1 md:gap-2 mt-1 md:mt-2 mb-2 md:mb-4">
+                {job.tags.map((tag) => (
+                  <span
+                    key={tag}
+                    className="border border-gray-400 rounded-full px-1.5 py-0.5 md:px-2 md:py-1 text-[10px] md:text-xs"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+              <p className="text-xs md:text-sm text-gray-700 mb-2 line-clamp-2">
+                {job.desc}
+              </p>
+              <button
+                onClick={() => openJobModal(job)}
+                className="w-full flex justify-end items-center text-xs md:text-sm text-[#0C1B3A] font-medium hover:underline group"
               >
-                <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
-              </motion.span>
-            </button>
-          </motion.div>
-        ))}
+                See positions
+                <motion.span
+                  animate={{ x: [0, 5, 0] }}
+                  transition={{ repeat: Infinity, duration: 1.5 }}
+                  className="ml-1 md:ml-2 text-[10px] md:text-xs"
+                >
+                  <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
+                </motion.span>
+              </button>
+            </motion.div>
+          ))}
+        </div>
       </section>
 
-      {/* Job Details Modal */}
+      {/* Job Details Modal - Mobile Optimized */}
       <AnimatePresence>
         {isModalOpen && (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4"
+            className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-2 md:p-4"
             onClick={closeJobModal}
           >
             <motion.div
@@ -335,12 +255,14 @@ export default function CareersPage() {
               animate={{ scale: 1, y: 0 }}
               exit={{ scale: 0.9, y: 50 }}
               transition={{ type: "spring", damping: 25 }}
-              className="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto"
+              className="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto text-sm md:text-base"
               onClick={(e) => e.stopPropagation()}
             >
-              <div className="p-6">
-                <div className="flex justify-between items-start mb-6">
-                  <h2 className="text-2xl font-bold">{selectedJob?.title}</h2>
+              <div className="p-4 md:p-6">
+                <div className="flex justify-between items-start mb-4 md:mb-6">
+                  <h2 className="text-xl md:text-2xl font-bold">
+                    {selectedJob?.title}
+                  </h2>
                   <button
                     onClick={closeJobModal}
                     className="text-gray-500 hover:text-gray-700"
@@ -349,51 +271,59 @@ export default function CareersPage() {
                   </button>
                 </div>
 
-                <div className="flex gap-4 mb-6">
-                  <div className="flex items-center text-gray-600">
-                    <FaMapMarkerAlt className="mr-2" />
+                <div className="flex flex-wrap gap-2 md:gap-4 mb-4 md:mb-6">
+                  <div className="flex items-center text-gray-600 text-xs md:text-sm">
+                    <FaMapMarkerAlt className="mr-1 md:mr-2" />
                     <span>{selectedJob?.details?.location}</span>
                   </div>
-                  <div className="flex items-center text-gray-600">
-                    <FaClock className="mr-2" />
+                  <div className="flex items-center text-gray-600 text-xs md:text-sm">
+                    <FaClock className="mr-1 md:mr-2" />
                     <span>{selectedJob?.tags.join(", ")}</span>
                   </div>
-                  <div className="flex items-center text-gray-600">
-                    <FaUserTie className="mr-2" />
+                  <div className="flex items-center text-gray-600 text-xs md:text-sm">
+                    <FaUserTie className="mr-1 md:mr-2" />
                     <span>{selectedJob?.details?.experience}</span>
                   </div>
                 </div>
 
-                <div className="mb-6">
-                  <h3 className="text-lg font-semibold mb-2">
+                <div className="mb-4 md:mb-6">
+                  <h3 className="text-base md:text-lg font-semibold mb-1 md:mb-2">
                     Job Description
                   </h3>
-                  <p className="text-gray-700">{selectedJob?.desc}</p>
+                  <p className="text-gray-700 text-sm md:text-base">
+                    {selectedJob?.desc}
+                  </p>
                 </div>
 
-                <div className="mb-6">
-                  <h3 className="text-lg font-semibold mb-2">
+                <div className="mb-4 md:mb-6">
+                  <h3 className="text-base md:text-lg font-semibold mb-1 md:mb-2">
                     Key Responsibilities
                   </h3>
-                  <ul className="space-y-2">
+                  <ul className="space-y-1 md:space-y-2">
                     {selectedJob?.details?.responsibilities?.map(
                       (item, index) => (
                         <li key={index} className="flex items-start">
-                          <span className="text-blue-500 mr-2">•</span>
-                          <span className="text-gray-700">{item}</span>
+                          <span className="text-blue-500 mr-1 md:mr-2">•</span>
+                          <span className="text-gray-700 text-sm md:text-base">
+                            {item}
+                          </span>
                         </li>
                       )
                     )}
                   </ul>
                 </div>
 
-                <div className="mb-8">
-                  <h3 className="text-lg font-semibold mb-2">Requirements</h3>
-                  <ul className="space-y-2">
+                <div className="mb-6 md:mb-8">
+                  <h3 className="text-base md:text-lg font-semibold mb-1 md:mb-2">
+                    Requirements
+                  </h3>
+                  <ul className="space-y-1 md:space-y-2">
                     {selectedJob?.details?.requirements?.map((item, index) => (
                       <li key={index} className="flex items-start">
-                        <span className="text-blue-500 mr-2">•</span>
-                        <span className="text-gray-700">{item}</span>
+                        <span className="text-blue-500 mr-1 md:mr-2">•</span>
+                        <span className="text-gray-700 text-sm md:text-base">
+                          {item}
+                        </span>
                       </li>
                     ))}
                   </ul>
@@ -402,7 +332,7 @@ export default function CareersPage() {
                 <motion.button
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  className="w-full bg-[#0C1B3A] text-white py-3 rounded-lg font-semibold"
+                  className="w-full bg-[#0C1B3A] text-white py-2 md:py-3 rounded-lg font-semibold text-sm md:text-base"
                 >
                   Apply Now
                 </motion.button>
